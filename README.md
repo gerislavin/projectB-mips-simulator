@@ -1,1 +1,1 @@
-# projectB-mips-sumulator
+# projectB-mips-simulator
