@@ -1,0 +1,14 @@
+1. insatll visual studio version. free visual studio comunity is availble at https://www.visualstudio.com/downloads/
+2. install latest qt version with msvc2017_64.
+3. after all was installed open ProjectB_UI.sln.
+4. open visual studio. go to 'Tools' > ' Extensions and Updates'  and download th Qt Visual Studio Tools.
+5. restart visual studio.
+6. go to 'QT VS Tools' > 'Qt opsions' > 'ADD' . go to qt folder and choose the msvc2017_64 folder and press Ok.
+7. go to 'qt VS Tools' > 'Qt Project Settings' . in Version choose msvc2017_64 and press Ok.
+8. go to  Build > Build solution.
+9. in your Qt installation folder go to Qt/$qtversion/mvs2017_64/bin. copy the following files to you project Debug folder:
+"Qt5Cored.dll"
+"Qt5Guid.dll"
+"Qt5Widgetsd.dll"
+10. press F5 ( Debug).
+
